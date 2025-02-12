@@ -17,7 +17,7 @@ import com.google.firebase.messaging.FirebaseMessaging
 
 class MainActivity : ReactActivity() {
 
-    override fun getMainComponentName(): String = "AwesomeProject"
+    override fun getMainComponentName(): String = "NotifcatioProject"
 
     override fun createReactActivityDelegate(): ReactActivityDelegate =
         DefaultReactActivityDelegate(this, mainComponentName, fabricEnabled)
